@@ -139,3 +139,12 @@ const getRandomComputerChoice = (choicesArray) => {
     return getRandomItem(choicesArray);
 };
 
+// Create a function called getResults that compares computer's answer to the actual answer.
+const getResults = (questionObject, computerChoice) => {
+    console.log(`Question: ${questionObject.question}`);
+    console.log(`Computer's choice: ${computerChoice}`);
+    if (questionObject.answer === computerChoice) return "The computer's choice is correct!"
+    return `The computer's choice is wrong. The correct answer is: ${questionObject.answer}`
+};
+
+
