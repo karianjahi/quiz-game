@@ -127,3 +127,15 @@ const getRandomItem = (anArray) => {
     return anArray[randomIndex];
 }
 
+// We need to create a function that picks a random question form the questions array
+const getRandomQuestion = (questionArray) => {
+    return getRandomItem(questionArray);
+};
+
+// console.log(getRandomQuestion(questions));
+
+// Create a function that returns a random choice
+const getRandomComputerChoice = (choicesArray) => {
+    return getRandomItem(choicesArray);
+};
+
