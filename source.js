@@ -111,4 +111,19 @@ questions[11] = {
     answer: "Gamma rays",    
 };
 
+// We can now log the questions array to the screen
+// console.log(questions);
+
+// Create a general function that takes in an array of items and returns a random item
+const getRandomItem = (anArray) => {
+    // length of array
+    let n = anArray.length;
+
+    // get random index
+    let randomIndex = Math.floor(Math.random() * n);
+
+    // Return an item based on the random index
+
+    return anArray[randomIndex];
+}
 
