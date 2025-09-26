@@ -147,4 +147,8 @@ const getResults = (questionObject, computerChoice) => {
     return `The computer's choice is wrong. The correct answer is: ${questionObject.answer}`
 };
 
-
+// logs to screen
+let questionObject = getRandomQuestion(questions);
+let computerChoice = getRandomComputerChoice(questionObject.choices);
+const results = getResults(questionObject, computerChoice);
+console.log(results);
