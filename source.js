@@ -4,7 +4,7 @@ Objectives of this mini-lab
 2. The questions array contain objects, each having the keys category, question, choices, and answer.
 3. The category key has the value of a string representing a question category.
 4. The question key has a value of a string representing a question.
-5. The choices key has the value of an array containing four strings, which are alternative answers to the question.
+5. The choices key has the value of an array containing three strings, which are alternative answers to the question.
 6. The answer key has the value of a string, representing the correct answer to the question. Also, the value of answer is included in the choices array.
 7. There's a function named getRandomQuestion that takes an array of questions as a parameter and returns a random question object from the array.
 8. There's a function named getRandomComputerChoice that takes the array of the available choices as a parameter, and returns a random answer to the selected question.
